@@ -13,7 +13,13 @@ app.get("/api/jokes", (req, res) => {
         id :2 ,
         title : '2nd joke ',
         content : "this is 2nd Joke"   
+    },
+    {
+        id :3 ,
+        title : '3rd joke ',
+        content : "this is 3rd Joke"   
     }
+    
 ]
     res.send(jokes);
   });
